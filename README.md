@@ -1,7 +1,7 @@
 # Expert-Prior-RL
 
 ## Getting started
-1. Install the [SMARTS](https://github.com/huawei-noah/SMARTS) simulator.
+1. Install the [SMARTS](https://github.com/huawei-noah/SMARTS) simulator. Follow the instructions of the official repo.
 
 2. Install the dependent package
 ```shell

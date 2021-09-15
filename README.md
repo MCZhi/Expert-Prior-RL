@@ -14,6 +14,10 @@ python personal_IRL.py
 ```shell
 python general_IRL.py 
 ```
+## Results
+SAC
+
+Policy penalty
 
 ## Reference
 If you find this repo to be useful in your research, please consider citing our work

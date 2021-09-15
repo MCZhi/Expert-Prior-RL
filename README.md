@@ -3,14 +3,10 @@
 ## Getting started
 1. Install the [SMARTS](https://github.com/huawei-noah/SMARTS) simulator. Follow the instructions of the official repo.
 
-2. Install tensorflow-probability
+2. Install tensorflow-probability and cpprb
 ```shell
-pip install tensorflow-probability==0.10.1
+pip install tensorflow-probability==0.10.1, cpprb
 ```
-Install cpprb
-```shell
-pip install cpprb
-``` 
    
 3. Run IRL personalized or IRL general
 ```shell

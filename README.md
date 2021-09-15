@@ -5,7 +5,7 @@
 
 2. Install tensorflow-probability and cpprb
 ```shell
-pip install tensorflow-probability==0.10.1, cpprb
+pip install tensorflow-probability==0.10.1 cpprb
 ```
    
 3. Run IRL personalized or IRL general

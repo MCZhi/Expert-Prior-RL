@@ -41,12 +41,11 @@ Policy penalty
 ## Reference
 If you find this repo to be useful in your research, please consider citing our work
 ```
-@article{huang2021driving,
-  title={Driving Behavior Modeling Using Naturalistic Human Driving Data With Inverse Reinforcement Learning},
+@article{huang2021efficient,
+  title={Efficient Deep Reinforcement Learning with Imitative Expert Priors for Autonomous Driving},
   author={Huang, Zhiyu and Wu, Jingda and Lv, Chen},
-  journal={IEEE Transactions on Intelligent Transportation Systems},
-  year={2021},
-  publisher={IEEE}
+  journal={arXiv preprint arXiv:2103.10690},
+  year={2021}
 }
 ```
 

@@ -23,7 +23,7 @@ python expert_recoding.py left_turn
 python imitation_learning_uncertainty.py 
 ```
 
-5. Run train.py to learn the imitative expert policies.
+5. Run train.py to learn the imitative expert policies. You need to specify the file path to the recorded expert trajectories. 
 ```shell
 python imitation_learning_uncertainty.py 
 ```

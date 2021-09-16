@@ -8,13 +8,31 @@
 pip install tensorflow-probability==0.10.1 cpprb
 ```
    
-3. Run IRL personalized or IRL general
+3. Run expert_recoding.py to demonstrate how to drive, and you need to specify the scenario to run.
 ```shell
-python personal_IRL.py 
+python expert_recoding.py --scenario left_turn 
 ```
+
+4. Run imitation_learning_uncertainty.py to learn the imitative expert policies.
 ```shell
-python general_IRL.py 
+python imitation_learning_uncertainty.py 
 ```
+
+5. Run train.py to learn the imitative expert policies.
+```shell
+python imitation_learning_uncertainty.py 
+```
+
+6. Run test.py to learn the imitative expert policies.
+```shell
+python imitation_learning_uncertainty.py 
+```
+
+7. Run plot_results.py to learn the imitative expert policies.
+```shell
+python imitation_learning_uncertainty.py 
+```
+
 ## Results
 SAC
 

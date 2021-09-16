@@ -18,12 +18,12 @@ http://localhost:8081/
 python expert_recoding.py left_turn 
 ```
 
-4. Run imitation_learning_uncertainty.py to learn the imitative expert policies.
+4. Run imitation_learning_uncertainty.py to learn the imitative expert policies. You need to specify the file path to the recorded expert trajectories. 
 ```shell
-python imitation_learning_uncertainty.py 
+python imitation_learning_uncertainty.py Expert_data/left_turn
 ```
 
-5. Run train.py to learn the imitative expert policies. You need to specify the file path to the recorded expert trajectories. 
+5. Run train.py to learn the imitative expert policies.
 ```shell
 python imitation_learning_uncertainty.py 
 ```

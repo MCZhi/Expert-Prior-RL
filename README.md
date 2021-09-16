@@ -3,9 +3,9 @@
 ## Getting started
 1. Install the [SMARTS](https://github.com/huawei-noah/SMARTS) simulator. Follow the instructions of the official repo.
 
-2. Install tensorflow-probability and cpprb
+2. Install tensorflow-probability, cpprb, and seaborn
 ```shell
-pip install tensorflow-probability==0.10.1 cpprb
+pip install tensorflow-probability==0.10.1 cpprb seaborn==0.11.0
 ```
    
 3. Run expert_recoding.py to demonstrate how to drive, and you need to specify the scenario to run.

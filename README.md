@@ -11,6 +11,8 @@ pip install tensorflow-probability==0.10.1 cpprb seaborn==0.11.0
 3. Start Envision and run expert_recoding.py to demonstrate how to drive, and you need to specify the scenario to run.
 ```shell
 scl envision start
+# Then to visit the Envision web app in your browser,
+http://localhost:8081/
 ```
 ```shell
 python expert_recoding.py left_turn 

@@ -8,9 +8,12 @@
 pip install tensorflow-probability==0.10.1 cpprb seaborn==0.11.0
 ```
    
-3. Run expert_recoding.py to demonstrate how to drive, and you need to specify the scenario to run.
+3. Start Envision and run expert_recoding.py to demonstrate how to drive, and you need to specify the scenario to run.
 ```shell
-python expert_recoding.py --scenario left_turn 
+scl envision start
+```
+```shell
+python expert_recoding.py left_turn 
 ```
 
 4. Run imitation_learning_uncertainty.py to learn the imitative expert policies.

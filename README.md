@@ -47,7 +47,7 @@ python test.py sac roundabout Train_results/roundabout/sac/Model/Model_328_3.365
 ## Results
 SAC
 
-Policy penalty
+Expert prior-guided
 
 ## Reference
 If you find this repo to be useful in your research, please consider citing our work

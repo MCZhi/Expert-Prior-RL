@@ -38,6 +38,8 @@ python plot_results.py sac left_turn success
 # Start envision and then go to visit the Envision web app in your browser,
 scl envision start
 http://localhost:8081/
+```
+```shell
 # Begin test
 python test.py sac roundabout Train_results/roundabout/sac/Model/Model_328_3.3651.h5
 ```

@@ -18,9 +18,9 @@ http://localhost:8081/
 python expert_recoding.py left_turn 
 ```
 
-4. Run imitation_learning_uncertainty.py to learn the imitative expert policies. You need to specify the file path to the recorded expert trajectories. 
+4. Run imitation_learning_uncertainty.py to learn the imitative expert policies. You need to specify the file path to the recorded expert trajectories. You can also specify how many samples you would like to use to train the expert policies.
 ```shell
-python imitation_learning_uncertainty.py expert_data/left_turn
+python imitation_learning_uncertainty.py expert_data/left_turn --samples 50
 ```
 
 5. Run train.py to train the RL agent. You need to specify the algorithm and scenario to run, and also the file path to the pre-trained imitative models if you are using the expert prior-guided algorithms.

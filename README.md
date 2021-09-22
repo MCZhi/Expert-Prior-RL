@@ -33,7 +33,7 @@ python train.py sac left_turn --prior expert_model/left_turn
 python plot_results.py sac left_turn success
 ```
 
-7. Run test.py to test the trained policy in the testing situations. You need to specify the algorithm and scenario, and the file path to your trained model. You can start Envision to visualize the testing process.
+7. Run test.py to test the trained policy in the testing situations. You need to specify the algorithm and scenario, and the file path to your trained model. You can start Envision to visualize the testing process at the same time.
 ```shell
 # Start envision and then go to visit the Envision web app in your browser,
 scl envision start

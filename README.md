@@ -23,7 +23,7 @@ python expert_recoding.py left_turn
 python imitation_learning_uncertainty.py expert_data/left_turn --samples 50
 ```
 
-5. Run train.py to train the RL agent. You need to specify the algorithm and scenario to run, and also the file path to the pre-trained imitative models if you are using the expert prior-guided algorithms.
+5. Run train.py to train the RL agent. You need to specify the algorithm and scenario to run, and also the file path to the pre-trained imitative models if you are using the expert prior-guided algorithms. If you are using GAIL, the prior should be the path to your demonstration trajectories.
 ```shell
 python train.py sac left_turn --prior expert_model/left_turn 
 ```

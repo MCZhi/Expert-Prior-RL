@@ -1,5 +1,10 @@
 # Expert-Prior-RL
 
+This repo is the implementation of the paper "Efficient Deep Reinforcement Learning with Imitative Expert Priors for Autonomous Driving".
+
+[**Efficient Deep Reinforcement Learning with Imitative Expert Priors for Autonomous Driving**](https://arxiv.org/abs/2103.10690) 
+> Zhiyu Huang, Jingda Wu, Chen Lv
+
 ## Getting started
 1. Install the [SMARTS](https://github.com/huawei-noah/SMARTS) simulator. Follow the instructions of the official repo.
 
@@ -50,9 +55,10 @@ python test.py sac roundabout train_results/roundabout/sac/Model/Model_328_3.365
 ```
 
 ## Results
-SAC
+### Roundabout
 
-Expert prior-guided
+
+### Left turn
 
 ## Reference
 If you find this repo to be useful in your research, please consider citing our work

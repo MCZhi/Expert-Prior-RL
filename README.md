@@ -56,9 +56,10 @@ python test.py sac roundabout train_results/roundabout/sac/Model/Model_328_3.365
 
 ## Results
 ### Roundabout
-
+<a href="https://youtu.be/AHosJZ6CITc" target="_blank"><img src="fig/video_cover_1.png" alt="video" width="640" height="360" border="10" /></a>
 
 ### Left turn
+<a href="https://youtu.be/AHosJZ6CITc" target="_blank"><img src="fig/video_cover_1.png" alt="video" width="640" height="360" border="10" /></a>
 
 ## Reference
 If you find this repo to be useful in your research, please consider citing our work

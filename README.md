@@ -12,7 +12,7 @@ pip install tensorflow-probability==0.10.1 cpprb seaborn==0.11.0
 ```shell
 scl envision start
 # Then to visit the Envision web app in your browser,
-http://localhost:8081/
+xdg-open http://localhost:8081/
 ```
 ```shell
 python expert_recoding.py left_turn 
@@ -37,7 +37,7 @@ python plot_results.py sac left_turn success
 ```shell
 # Start envision and then go to visit the Envision web app in your browser,
 scl envision start
-http://localhost:8081/
+xdg-open http://localhost:8081/
 ```
 ```shell
 # Begin test

@@ -14,7 +14,7 @@ pip install tensorflow-probability==0.10.1 cpprb seaborn==0.11.0
 scl envision start
 ```
 ```shell
-# Then to visit the Envision web app in your browser,
+# Then to visit the envision web app in your browser
 xdg-open http://localhost:8081/
 ```
 ```shell

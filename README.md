@@ -10,7 +10,10 @@ pip install tensorflow-probability==0.10.1 cpprb seaborn==0.11.0
    
 3. Start Envision and run expert_recoding.py to demonstrate how to drive, and you need to specify the scenario to run.
 ```shell
+# Start envision
 scl envision start
+```
+```shell
 # Then to visit the Envision web app in your browser,
 xdg-open http://localhost:8081/
 ```
@@ -35,12 +38,14 @@ python plot_results.py sac left_turn success
 
 7. Run test.py to test the trained policy in the testing situations. You need to specify the algorithm and scenario, and the file path to your trained model. You can start Envision to visualize the testing process at the same time.
 ```shell
-# Start envision and then go to visit the Envision web app in your browser,
+# Start envision
 scl envision start
+```
+```shell
+# Go to visit the Envision web app in your browser
 xdg-open http://localhost:8081/
 ```
 ```shell
-# Begin test
 python test.py sac roundabout train_results/roundabout/sac/Model/Model_328_3.3651.h5
 ```
 

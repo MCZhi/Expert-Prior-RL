@@ -23,7 +23,7 @@ scl envision start
 xdg-open http://localhost:8081/
 ```
 ```shell
-python expert_recoding.py left_turn 
+python expert_recording.py left_turn 
 ```
 
 4. Run imitation_learning_uncertainty.py to learn the imitative expert policies. You need to specify the file path to the recorded expert trajectories. You can optionally specify how many samples you would like to use to train the expert policies.

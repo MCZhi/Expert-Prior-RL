@@ -17,12 +17,10 @@ pip install tensorflow-probability==0.10.1 cpprb seaborn==0.11.0
 ```shell
 # Start envision
 scl envision start
-```
-```shell
+
 # Then to visit the envision web app in your browser
 xdg-open http://localhost:8081/
-```
-```shell
+
 python expert_recording.py left_turn 
 ```
 
@@ -45,12 +43,10 @@ python plot_results.py sac left_turn success
 ```shell
 # Start envision
 scl envision start
-```
-```shell
+
 # Go to visit the Envision web app in your browser
 xdg-open http://localhost:8081/
-```
-```shell
+
 python test.py sac roundabout train_results/roundabout/sac/Model/Model_328_3.3651.h5
 ```
 

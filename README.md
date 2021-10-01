@@ -13,7 +13,7 @@ This repo is the implementation of the paper "Efficient Deep Reinforcement Learn
 pip install tensorflow-probability==0.10.1 cpprb seaborn==0.11.0
 ```
    
-3. Start Envision and run expert_recoding.py to demonstrate how to drive, and you need to specify the scenario to run.
+3. Start Envision and run expert_recoding.py to demonstrate how to drive, and you need to specify the scenario to run. The available scenarios are left_turn and roundabout.
 ```shell
 scl run --envision expert_recording.py left_turn 
 ```
@@ -23,12 +23,12 @@ scl run --envision expert_recording.py left_turn
 python imitation_learning_uncertainty.py expert_data/left_turn --samples 30
 ```
 
-5. Run train.py to train the RL agent. You need to specify the algorithm and scenario to run, and also the file path to the pre-trained imitative models if you are using the expert prior-guided algorithms. If you are using GAIL, the prior should be the path to your demonstration trajectories.
+5. Run train.py to train the RL agent. You need to specify the algorithm and scenario to run, and also the file path to the pre-trained imitative models if you are using the expert prior-guided algorithms. The available algorithms are sac, expert_penalty, expert_constraint, ppo, gail. If you are using GAIL, the prior should be the path to your demonstration trajectories.
 ```shell
-python train.py sac left_turn --prior expert_model/left_turn 
+python train.py expert_penalty left_turn --prior expert_model/left_turn 
 ```
 
-6. Run plot_results.py to visualize the training results. You need to specify the algorithm and scenario that you have trained with, as well as the metric you want to see.
+6. Run plot_results.py to visualize the training results. You need to specify the algorithm and scenario that you have trained with, as well as the metric you want to see (success or reward).
 ```shell
 python plot_results.py sac left_turn success
 ```

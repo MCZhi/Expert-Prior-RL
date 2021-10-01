@@ -15,13 +15,7 @@ pip install tensorflow-probability==0.10.1 cpprb seaborn==0.11.0
    
 3. Start Envision and run expert_recoding.py to demonstrate how to drive, and you need to specify the scenario to run.
 ```shell
-# Start envision
-scl envision start
-
-# Then to visit the envision web app in your browser
-xdg-open http://localhost:8081/
-
-python expert_recording.py left_turn 
+scl run --envision expert_recording.py left_turn 
 ```
 
 4. Run imitation_learning_uncertainty.py to learn the imitative expert policies. You need to specify the file path to the recorded expert trajectories. You can optionally specify how many samples you would like to use to train the expert policies.
@@ -41,13 +35,7 @@ python plot_results.py sac left_turn success
 
 7. Run test.py to test the trained policy in the testing situations. You need to specify the algorithm and scenario, and the file path to your trained model. You can start Envision to visualize the testing process at the same time.
 ```shell
-# Start envision
-scl envision start
-
-# Go to visit the Envision web app in your browser
-xdg-open http://localhost:8081/
-
-python test.py sac roundabout train_results/roundabout/sac/Model/Model_328_3.3651.h5
+scl run --envision test.py sac roundabout train_results/roundabout/sac/Model/Model_328_3.3651.h5
 ```
 
 ## Results

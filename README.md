@@ -42,7 +42,7 @@ scl run --envision test.py sac roundabout train_results/roundabout/sac/Model/Mod
 ### Roundabout
 | Algorithms | Results |
 |:---:|:---:|
-| Expert Prior | <img src="img/test_rendering_60000.gif" width="800"/> |
+| Expert Prior | <img src="expert_prior_con.gif" width="400"/> |
 | SAC | <img src="img/test_rendering_60000.gif" width="800"/> |
 | PPO | <img src="img/test_rendering_60000.gif" width="800"/> |
 | GAIL | <img src="img/test_rendering_30000.gif" width="800"/> |
@@ -50,7 +50,8 @@ scl run --envision test.py sac roundabout train_results/roundabout/sac/Model/Mod
 ### Left turn
 | Algorithms | Results |
 |:---:|:---:|
-| Expert Prior | <img src="img/test_rendering_60000.gif" width="800"/> |
+| Expert Prior (Aggressive) | <img src="aggressive.gif" width="400"/> |
+| Expert Prior (Conservative) | <img src="conservative.gif" width="400"/> |
 | SAC | <img src="img/test_rendering_60000.gif" width="800"/> |
 | PPO | <img src="img/test_rendering_60000.gif" width="800"/> |
 | GAIL | <img src="img/test_rendering_30000.gif" width="800"/> |

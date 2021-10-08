@@ -42,10 +42,10 @@ scl run --envision test.py sac roundabout train_results/roundabout/sac/Model/Mod
 ### Roundabout
 | Algorithms | Results |
 |:---:|:---:|
-| Expert Prior | <img src="expert_prior_con.gif" width="600"/> |
-| SAC | <img src="expert_prior_con.gif" width="600"/> |
-| PPO | <img src="expert_prior_con.gif" width="600"/> |
-| GAIL | <img src="expert_prior_con.gif" width="600"/> |
+| Expert Prior | <img src="expert_prior_con.gif" width="605"/> |
+| SAC | <img src="expert_prior_con.gif" width="605"/> |
+| PPO | <img src="expert_prior_con.gif" width="605"/> |
+| GAIL | <img src="expert_prior_con.gif" width="605"/> |
 
 ### Left turn
 | Algorithms | Results |

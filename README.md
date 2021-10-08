@@ -42,19 +42,19 @@ scl run --envision test.py sac roundabout train_results/roundabout/sac/Model/Mod
 ### Roundabout
 | Algorithms | Results |
 |:---:|:---:|
-| Expert Prior | <img src="expert_prior_con.gif" width="400"/> |
-| SAC | <img src="img/test_rendering_60000.gif" width="800"/> |
-| PPO | <img src="img/test_rendering_60000.gif" width="800"/> |
-| GAIL | <img src="img/test_rendering_30000.gif" width="800"/> |
+| Expert Prior | <img src="expert_prior_con.gif" width="600"/> |
+| SAC | <img src="expert_prior_con.gif" width="600"/> |
+| PPO | <img src="expert_prior_con.gif" width="600"/> |
+| GAIL | <img src="expert_prior_con.gif" width="600"/> |
 
 ### Left turn
 | Algorithms | Results |
 |:---:|:---:|
-| Expert Prior (Aggressive) | <img src="aggressive.gif" width="400"/> |
-| Expert Prior (Conservative) | <img src="conservative.gif" width="400"/> |
-| SAC | <img src="img/test_rendering_60000.gif" width="800"/> |
-| PPO | <img src="img/test_rendering_60000.gif" width="800"/> |
-| GAIL | <img src="img/test_rendering_30000.gif" width="800"/> |
+| Expert Prior (Aggressive) | <img src="aggressive.gif" width="500"/> |
+| Expert Prior (Conservative) | <img src="conservative.gif" width="500"/> |
+| SAC | <img src="conservative.gif" width="500"/> |
+| PPO | <img src="conservative.gif" width="500"/> |
+| GAIL| <img src="conservative.gif" width="500"/> |
 
 ## Reference
 If you find this repo to be useful in your research, please consider citing our work

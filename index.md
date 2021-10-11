@@ -12,11 +12,11 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-<table border="0" cellspacing="10"
-cellpadding="0" align="center"><tbody><tr><td align="center"
-valign="middle"><img
-src="./src/overview.png" style="width:90%;"></td>
-</tr> </tbody> </table>
+<table border="0" cellspacing="10" cellpadding="0" align="center">
+    <tbody><tr><td align="center" valign="middle">
+      <img src="./src/overview.png" style="width:90%;"></td>
+    </tr> </tbody> 
+</table>
 
 ## Results
 

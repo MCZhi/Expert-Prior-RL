@@ -2,7 +2,7 @@
 
 Zhiyu Huang, Jingda Wu, Chen Lv
 
-AutoMan Research Lab, Nanyang Technological University
+[AutoMan Research Lab, Nanyang Technological University](https://lvchen.wixsite.com/automan)
 
 ### Markdown
 

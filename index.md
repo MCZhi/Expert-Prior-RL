@@ -1,8 +1,8 @@
 ## Efficient Deep Reinforcement Learning with Imitative Expert Priors for Autonomous Driving
 
-You can use the [editor on GitHub](https://github.com/MCZhi/Expert-Prior-RL/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Zhiyu Huang, Jingda Wu, Chen Lv
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+AutoMan Research Lab, Nanyang Technological University
 
 ### Markdown
 

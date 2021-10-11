@@ -12,11 +12,17 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-![Image](src)
+<table border="0" cellspacing="10"
+cellpadding="0" align="center"><tbody><tr><td align="center"
+valign="middle"><img
+src="./src/overview.png" style="width:80%;"></td>
+</tr> </tbody> </table>
 
 ## Results
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/MCZhi/Expert-Prior-RL/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+<video muted autoplay loop width="80%">
+    <source src="./src/envs_animated_trimmed.mp4"  type="video/mp4">
+</video>
 
 ## Citation
 

@@ -3,7 +3,7 @@
 This repo is the implementation of **Imitative Expert Prior-Guided Reinforcement Learning**, from the following paper:
 
 **Efficient Deep Reinforcement Learning with Imitative Expert Priors for Autonomous Driving**
-<br> Zhiyu Huang, Jingda Wu, Chen Lv 
+<br> [Zhiyu Huang](https://scholar.google.com/citations?user=aLZEVCsAAAAJ&hl=en), Jingda Wu, [Chen Lv](https://scholar.google.com/citations?user=UKVs2CEAAAAJ&hl=en) 
 <br> [AutoMan Research Lab, Nanyang Technological University](https://lvchen.wixsite.com/automan)
 <br> **[[Paper]](https://arxiv.org/abs/2103.10690)**&nbsp;**[[Project Website]](https://mczhi.github.io/Expert-Prior-RL/)**
 

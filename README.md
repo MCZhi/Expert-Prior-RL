@@ -52,4 +52,4 @@ If you find this repo to be useful in your research, please consider citing our 
 ```
 
 ## Acknowledgement
-Much of this codebase is based based on [tf2rl](https://github.com/keiohta/tf2rl).
+Much of this codebase is based on [tf2rl](https://github.com/keiohta/tf2rl).

@@ -20,8 +20,8 @@ src="./src/overview.png" style="width:90%;"></td>
 
 ## Results
 
-<video muted autoplay loop width="90%">
-    <source src="./src/envs_animated_trimmed.mp4"  type="video/mp4">
+<video muted controls width="80%">
+    <source src="./src/PredictionDemo.mp4"  type="video/mp4">
 </video>
 
 ## Citation

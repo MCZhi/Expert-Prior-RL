@@ -38,24 +38,6 @@ python plot_results.py sac left_turn success
 scl run --envision test.py sac roundabout train_results/roundabout/sac/Model/Model_328_3.3651.h5
 ```
 
-## Results
-### Roundabout
-| Algorithms | Results |
-|:---:|:---:|
-| Expert Prior | <img src="expert_prior_con.gif" width="605"/> |
-| SAC | <img src="expert_prior_con.gif" width="605"/> |
-| PPO | <img src="expert_prior_con.gif" width="605"/> |
-| GAIL | <img src="expert_prior_con.gif" width="605"/> |
-
-### Left turn
-| Algorithms | Results |
-|:---:|:---:|
-| Expert Prior (Aggressive) | <img src="aggressive.gif" width="500"/> |
-| Expert Prior (Conservative) | <img src="conservative.gif" width="500"/> |
-| SAC | <img src="conservative.gif" width="500"/> |
-| PPO | <img src="conservative.gif" width="500"/> |
-| GAIL| <img src="conservative.gif" width="500"/> |
-
 ## Reference
 If you find this repo to be useful in your research, please consider citing our work
 ```
@@ -67,5 +49,5 @@ If you find this repo to be useful in your research, please consider citing our 
 }
 ```
 
-## License
-This repo is released under the MIT License. The RL algorithms are implemented based on [tf2rl](https://github.com/keiohta/tf2rl).
+## Acknowledgement
+Much of this codebase is based based on [tf2rl](https://github.com/keiohta/tf2rl).

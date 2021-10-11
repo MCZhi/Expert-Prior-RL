@@ -15,12 +15,12 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 <table border="0" cellspacing="10"
 cellpadding="0" align="center"><tbody><tr><td align="center"
 valign="middle"><img
-src="./src/overview.png" style="width:80%;"></td>
+src="./src/overview.png" style="width:90%;"></td>
 </tr> </tbody> </table>
 
 ## Results
 
-<video muted autoplay loop width="80%">
+<video muted autoplay loop width="90%">
     <source src="./src/envs_animated_trimmed.mp4"  type="video/mp4">
 </video>
 

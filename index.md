@@ -1,6 +1,6 @@
 # Efficient Deep Reinforcement Learning with Imitative Expert Priors for Autonomous Driving
 
-[Zhiyu Huang](https://scholar.google.com/citations?user=aLZEVCsAAAAJ&hl=en), Jingda Wu, [Chen Lv](https://scholar.google.com/citations?user=UKVs2CEAAAAJ&hl=en) 
+[Zhiyu Huang](https://scholar.google.com/citations?user=aLZEVCsAAAAJ&hl=en), [Jingda Wu](https://scholar.google.com/citations?user=icu-ZFAAAAAJ&hl=en), [Chen Lv](https://scholar.google.com/citations?user=UKVs2CEAAAAJ&hl=en) 
 
 [AutoMan Research Lab, Nanyang Technological University](https://lvchen.wixsite.com/automan)
 

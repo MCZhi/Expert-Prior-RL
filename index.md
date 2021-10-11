@@ -1,10 +1,10 @@
-## Efficient Deep Reinforcement Learning with Imitative Expert Priors for Autonomous Driving
+## [Efficient Deep Reinforcement Learning with Imitative Expert Priors for Autonomous Driving](https://arxiv.org/abs/2103.10690)
 
 Zhiyu Huang, Jingda Wu, Chen Lv
 
 [AutoMan Research Lab, Nanyang Technological University](https://lvchen.wixsite.com/automan)
 
-### Markdown
+### Method Overview
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 

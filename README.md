@@ -40,6 +40,11 @@ python plot_results.py sac left_turn success
 scl run --envision test.py sac roundabout train_results/roundabout/sac/Model/Model_328_3.3651.h5
 ```
 
+8. Run plot_test.py to show the vehicle dynamics. You need to specify 
+```shell
+python plot_test.py test_results/left_turn/klac/test_log.csv
+```
+
 ## Reference
 If you find this repo to be useful in your research, please consider citing our work
 ```

@@ -30,7 +30,7 @@ python imitation_learning_uncertainty.py expert_data/left_turn --samples 40
 python train.py value_penalty left_turn --prior expert_model/left_turn 
 ```
 
-6. Run plot_results.py to visualize the training results. You need to specify the algorithm and scenario that you have trained with, as well as the metric you want to see (success or reward).
+6. Run plot_train.py to visualize the training results. You need to specify the algorithm and scenario that you have trained with, as well as the metric you want to see (success or reward).
 ```shell
 python plot_results.py value_penalty left_turn success
 ```

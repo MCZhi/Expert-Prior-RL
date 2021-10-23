@@ -32,7 +32,7 @@ python train.py value_penalty left_turn --prior expert_model/left_turn
 
 6. Run plot_train.py to visualize the training results. You need to specify the algorithm and scenario that you have trained with, as well as the metric you want to see (success or reward).
 ```shell
-python plot_results.py value_penalty left_turn success
+python plot_train.py value_penalty left_turn success
 ```
 
 7. Run test.py to test the trained policy in the testing situations, along with Envision to visualize the testing process at the same time. You need to specify the algorithm and scenario, and the file path to your trained model. 

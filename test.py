@@ -104,7 +104,7 @@ agent_spec = AgentSpec(
 
 # define the env
 AGENT_ID = "Agent-007"
-env = HiWayEnv(scenarios=scenario_path, agent_specs={AGENT_ID: agent_spec}, headless=True, seed=42)
+env = HiWayEnv(scenarios=scenario_path, agent_specs={AGENT_ID: agent_spec}, headless=False, seed=42)
 env.observation_space = OBSERVATION_SPACE
 env.action_space = ACTION_SPACE
 

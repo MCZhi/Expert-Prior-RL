@@ -12,7 +12,7 @@ This repo is the implementation of **Imitative Expert Prior-Guided Reinforcement
 
 2. Install tensorflow-probability, cpprb, and seaborn
 ```shell
-pip install tensorflow-gpu==2.3.0 tensorflow-probability==0.11.1 cpprb seaborn==0.11.0
+pip install tensorflow-probability==0.10.1 cpprb seaborn==0.11.0
 ```
    
 3. Start Envision and run expert_recoding.py to demonstrate how to drive, and you need to specify the scenario to run. The available scenarios are left_turn and roundabout.

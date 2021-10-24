@@ -10,7 +10,7 @@ Deep reinforcement learning (DRL) is a promising way to achieve human-like auton
 
 ## Method Overview
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Our method consists of three key steps: expert demonstration, policy derivation, and reinforcement learning. First of all, we distill the human prior knowledge through their demonstrations into the form of imitative expert policy using imitation learning and uncertainty estimation. The imitative expert policy assumes the action distribution the human expert would execute in the state, and it can be queried with a state encountered by the RL agent during training and responds with the reference action distribution. Subsequently, the imitative expert policy is used to guide the learning process of RL agents through regularizing the RL policy to be close to the expert policy. By adding the Kullback–Leibler (KL) divergence between the imitative expert priors and agent policy into the RL framework, we can regularize the agent's behaviors within the desired space, and thus the learning efficiency can be significantly enhanced.
 
 <img src="./src/overview.png" style="width:90%;">
 

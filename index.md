@@ -18,12 +18,12 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 As our behavior primitives offer high-level action abstractions and encapsulate low-level complexities of motor actuation, our policies can directly transfer to the real world. We trained MAPLE on simulated versions of the stack and cleanup tasks and executed the resulting policies to the real world. Here we show rollouts on the cleanup task (played at 5x).
 
 ### Unprotected left turn
-<video muted controls width="80%">
+<video muted controls width="90%">
     <source src="./src/Left turn.mp4"  type="video/mp4">
 </video>
 
 ### Roundabout
-<video muted controls width="80%">
+<video muted controls width="90%">
     <source src="./src/Left turn.mp4"  type="video/mp4">
 </video>
 

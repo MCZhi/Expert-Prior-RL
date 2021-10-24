@@ -118,6 +118,7 @@ def main(args, scenario, num_episodes, seed):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument('scenario')
+    parser.add_argument('--samples', type=int, default=40)
     args = parser.parse_args()
 
     if args.scenario == 'left_turn':
@@ -130,4 +131,4 @@ if __name__ == "__main__":
     if not os.path.exists('./expert_data/{}'.format(args.scenario)):
         os.makedirs('./expert_data/{}'.format(args.scenario))
 
-    main(args, scenario=scenario, num_episodes=50, seed=random.randint(0, 100))
+    main(args, scenario=scenario, num_episodes=args.samples, seed=random.randint(0, 100))

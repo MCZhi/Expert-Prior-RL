@@ -10,12 +10,11 @@ Deep reinforcement learning (DRL) is a promising way to achieve human-like auton
 
 ## Method Overview
 
-Our method consists of three key steps: expert demonstration, policy derivation, and reinforcement learning. First of all, we distill the human prior knowledge through their demonstrations into the form of imitative expert policy using imitation learning and uncertainty estimation. The imitative expert policy assumes the action distribution the human expert would execute in the state, and it can be queried with a state encountered by the RL agent during training and responds with the reference action distribution. Subsequently, the imitative expert policy is used to guide the learning process of RL agents through regularizing the RL policy to be close to the expert policy. By adding the Kullback–Leibler (KL) divergence between the imitative expert priors and agent policy into the RL framework, we can regularize the agent's behaviors within the desired space, and thus the learning efficiency can be significantly enhanced.
+Our method consists of three key steps: expert demonstration, policy derivation, and reinforcement learning. First of all, we distill the human prior knowledge through their demonstrations into the form of imitative expert policy using imitation learning and uncertainty estimation. The imitative expert policy assumes the action distribution the human expert would execute in the state, and it can be queried with a state encountered by the RL agent during training and responds with the reference action distribution. Subsequently, the imitative expert policy is used to guide the learning process of RL agents by adding the Kullback–Leibler (KL) divergence regularization between the imitative expert priors and agent policy into the RL framework.
 
 <img src="./src/overview.png" style="width:90%;">
 
 ## Results
-As our behavior primitives offer high-level action abstractions and encapsulate low-level complexities of motor actuation, our policies can directly transfer to the real world. We trained MAPLE on simulated versions of the stack and cleanup tasks and executed the resulting policies to the real world. Here we show rollouts on the cleanup task (played at 5x).
 
 ### Unprotected left turn
 <video muted controls width="90%">

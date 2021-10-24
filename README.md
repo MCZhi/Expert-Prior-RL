@@ -15,9 +15,9 @@ This repo is the implementation of **Imitative Expert Prior-Guided Reinforcement
 pip install tensorflow-probability==0.10.1 cpprb seaborn==0.11.0
 ```
    
-3. Start Envision and run expert_recoding.py to demonstrate how to drive (🠉 speed up, 🠋 slow down, 🠈 turn left, 🠊 turn right), and you need to specify the scenario to run. The available scenarios are left_turn and roundabout.
+3. Start Envision and run expert_recoding.py to demonstrate how to drive (🠉 speed up, 🠋 slow down, 🠈 turn left, 🠊 turn right), and you need to specify the scenario to run. The available scenarios are left_turn and roundabout. You can optionally specify how many samples you would collect.
 ```shell
-scl run --envision expert_recording.py left_turn 
+scl run --envision expert_recording.py left_turn --samples 40
 ```
 
 4. Run imitation_learning_uncertainty.py to learn the imitative expert policies. You need to specify the file path to the recorded expert trajectories. You can optionally specify how many samples you would like to use to train the expert policies.

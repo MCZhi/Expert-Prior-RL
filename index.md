@@ -27,13 +27,13 @@ Our method consists of three key steps: expert demonstration, policy derivation,
 ### Roundabout
 
 | Tables        | Are   |
-| --------------|:--------------:|
+|:--------------:|:--------------:|
 | <video muted controls width="100%"> <source src="./src/Roundabout.mp4"  type="video/mp4"> </video> | <video muted controls width="100%"> <source src="./src/Roundabout.mp4"  type="video/mp4"> </video> | 
 
 There must be at least 3 dashes separating each header cell. The outer pipes (|) are optional, and you don't need to make the raw Markdown line up prettily. You can also use inline Markdown.
 
 | Tables        | Are   |
-| --------------|:--------------:|
+|:--------------:|:--------------:|
 | <video muted controls width="100%"> <source src="./src/Roundabout.mp4"  type="video/mp4"> </video> | <video muted controls width="100%"> <source src="./src/Roundabout.mp4"  type="video/mp4"> </video> |
 
 ## Citation

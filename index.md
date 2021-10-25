@@ -21,7 +21,7 @@ Our method consists of three key steps: expert demonstration, policy derivation,
 | Expert Prior RL (aggressive behavior) | Expert Prior RL (conservative behavior) |
 |:-------------------------------------:|:---------------------------------------:|
 | <video muted controls width="100%"> <source src="./src/Left turn.mp4"  type="video/mp4"> </video> | <video muted controls width="100%"> <source src="./src/Left turn.mp4"  type="video/mp4"> </video> |
-|                   SAC                 |                    PPO                  |
+|               **SAC**                 |                  **PPO**                |
 | <video muted controls width="100%"> <source src="./src/Left turn.mp4"  type="video/mp4"> </video> | <video muted controls width="100%"> <source src="./src/Left turn.mp4"  type="video/mp4"> </video> |
 
 ### Roundabout
@@ -29,7 +29,7 @@ Our method consists of three key steps: expert demonstration, policy derivation,
 | Expert Prior RL | Behavior Cloning |
 |:---------------:|:----------------:|
 | <video muted controls width="100%"> <source src="./src/Roundabout.mp4"  type="video/mp4"> </video> | <video muted controls width="100%"> <source src="./src/Roundabout.mp4"  type="video/mp4"> </video> | 
-|      SAC        |         PPO      |
+|     **SAC**     |     **PPO**      |
 | <video muted controls width="100%"> <source src="./src/Roundabout.mp4"  type="video/mp4"> </video> | <video muted controls width="100%"> <source src="./src/Roundabout.mp4"  type="video/mp4"> </video> |
 
 ## Citation

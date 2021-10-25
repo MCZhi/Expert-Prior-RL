@@ -20,9 +20,9 @@ Our method consists of three key steps: expert demonstration, policy derivation,
 
 | Expert Prior RL (aggressive behavior) | Expert Prior RL (conservative behavior) |
 |:-------------------------------------:|:---------------------------------------:|
-| <video muted controls width="100%"> <source src="./src/Left_turn_AGG.mp4"  type="video/mp4"> </video> | <video muted controls width="100%"> <source src="./src/Left_turn_CON.mp4"  type="video/mp4"> </video> |
+| <video muted controls width=400> <source src="./src/Left_turn_AGG.mp4"  type="video/mp4"> </video> | <video muted controls width=400> <source src="./src/Left_turn_CON.mp4"  type="video/mp4"> </video> |
 |               **SAC**                 |                  **PPO**                |
-| <video muted controls width="100%"> <source src="./src/Left_turn_SAC.mp4"  type="video/mp4"> </video> | <video muted controls width="100%"> <source src="./src/Left_turn_PPO.mp4"  type="video/mp4"> </video> |
+| <video muted controls width=400> <source src="./src/Left_turn_SAC.mp4"  type="video/mp4"> </video> | <video muted controls width=400> <source src="./src/Left_turn_PPO.mp4"  type="video/mp4"> </video> |
 
 ### Roundabout
 

@@ -28,9 +28,9 @@ Our method consists of three key steps: expert demonstration, policy derivation,
 
 | Expert Prior RL | Behavior Cloning |
 |:---------------:|:----------------:|
-| <video muted controls width=400> <source src="./src/Roundabout.mp4"  type="video/mp4"> </video> | <video muted controls width=400> <source src="./src/Roundabout.mp4"  type="video/mp4"> </video> | 
+| <video muted controls width=380> <source src="./src/Roundabout_expert.mp4"  type="video/mp4"> </video> | <video muted controls width=380> <source src="./src/Roundabout_BC.mp4"  type="video/mp4"> </video> | 
 |     **SAC**     |     **PPO**      |
-| <video muted controls width=400> <source src="./src/Roundabout.mp4"  type="video/mp4"> </video> | <video muted controls width=400> <source src="./src/Roundabout.mp4"  type="video/mp4"> </video> |
+| <video muted controls width=380> <source src="./src/Roundabout_SAC.mp4"  type="video/mp4"> </video> | <video muted controls width=380> <source src="./src/Roundabout_PPO.mp4"  type="video/mp4"> </video> |
 
 ## Citation
 

@@ -19,17 +19,21 @@ Our method consists of three key steps: expert demonstration, policy derivation,
 ## Results
 
 ### Unprotected left turn
-| Tables        | Are   |     
+| Tables        | Are   |
+| --------------|:--------------:|
 | <video muted controls width="100%"> <source src="./src/Left turn.mp4"  type="video/mp4"> </video> | <video muted controls width="100%"> <source src="./src/Left turn.mp4"  type="video/mp4"> </video> | 
 
-| Tables        | Are   |     
+| Tables        | Are   |
+| --------------|:--------------:|
 | <video muted controls width="100%"> <source src="./src/Left turn.mp4"  type="video/mp4"> </video> | <video muted controls width="100%"> <source src="./src/Left turn.mp4"  type="video/mp4"> </video> |
 
 ### Roundabout
-| Tables        | Are   |     
+| Tables        | Are   |
+| --------------|:--------------:|
 | <video muted controls width="100%"> <source src="./src/Roundabout.mp4"  type="video/mp4"> </video> | <video muted controls width="100%"> <source src="./src/Roundabout.mp4"  type="video/mp4"> </video> | 
 
-| Tables        | Are   |     
+| Tables        | Are   |
+| --------------|:--------------:|
 | <video muted controls width="100%"> <source src="./src/Roundabout.mp4"  type="video/mp4"> </video> | <video muted controls width="100%"> <source src="./src/Roundabout.mp4"  type="video/mp4"> </video> |
 
 ## Citation

@@ -16,6 +16,8 @@ Our method consists of three key steps: expert demonstration, policy derivation,
 
 ## Results
 
+The visualization results of different driving policies are presented. The videos are played at 2x speed.
+
 ### Unprotected left turn
 
 | Expert Prior RL (aggressive behavior) | Expert Prior RL (conservative behavior) |

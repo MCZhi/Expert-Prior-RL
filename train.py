@@ -40,6 +40,7 @@ def load_expert_trajectories(filepath):
             obses.append(obs[i])
             next_obses.append(obs[i+1])
             act = action[i]
+            act[0] += random.normalvariate(0, 0.1) # speed
             act[0] = np.clip(act[0], 0, 10)
             act[0] = 2.0 * ((act[0] - 0) / (10 - 0)) - 1.0 # normalize speed
             act[1] += random.normalvariate(0, 0.1) # lane change
@@ -113,9 +114,8 @@ parser.add_argument("--prior", help="path to the expert prior models", default=N
 args = parser.parse_args()
 args.max_steps = 10e4
 args.save_summary_interval = 128
-args.show_progress = False
 args.use_prioritized_rb = False
-args.n_experiments = 5
+args.n_experiments = 10
 args.logdir = f'./train_results/{args.scenario}/{args.algo}'
 
 # define scenario

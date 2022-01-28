@@ -40,8 +40,8 @@ The visualization results of different driving policies are presented. The video
 @article{huang2021efficient,
   title={Efficient Deep Reinforcement Learning with Imitative Expert Priors for Autonomous Driving},
   author={Huang, Zhiyu and Wu, Jingda and Lv, Chen},
-  journal={arXiv preprint arXiv:2103.10690},
-  year={2021}
+  journal={IEEE Transactions on Neural Networks and Learning Systems},
+  year={2022}
 }
 ```
 

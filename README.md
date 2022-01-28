@@ -5,7 +5,7 @@ This repo is the implementation of **Imitative Expert Prior-Guided Reinforcement
 **Efficient Deep Reinforcement Learning with Imitative Expert Priors for Autonomous Driving**
 <br> [Zhiyu Huang](https://scholar.google.com/citations?user=aLZEVCsAAAAJ&hl=en), [Jingda Wu](https://scholar.google.com/citations?user=icu-ZFAAAAAJ&hl=en), [Chen Lv](https://scholar.google.com/citations?user=UKVs2CEAAAAJ&hl=en) 
 <br> [AutoMan Research Lab, Nanyang Technological University](https://lvchen.wixsite.com/automan)
-<br> **[[Paper]](https://arxiv.org/abs/2103.10690)**&nbsp;**[[Project Website]](https://mczhi.github.io/Expert-Prior-RL/)**
+<br> **[[Paper]](https://ieeexplore.ieee.org/document/9694460)**&nbsp;**[[arXiv]](https://arxiv.org/abs/2103.10690)**&nbsp;**[[Project Website]](https://mczhi.github.io/Expert-Prior-RL/)**
 
 ## Getting started
 1. Install the [SMARTS](https://github.com/huawei-noah/SMARTS) simulator. Follow the instructions of the official repo.
@@ -51,8 +51,8 @@ If you find this repo to be useful in your research, please consider citing our 
 @article{huang2021efficient,
   title={Efficient Deep Reinforcement Learning with Imitative Expert Priors for Autonomous Driving},
   author={Huang, Zhiyu and Wu, Jingda and Lv, Chen},
-  journal={arXiv preprint arXiv:2103.10690},
-  year={2021}
+  journal={IEEE Transactions on Neural Networks and Learning Systems},
+  year={2022}
 }
 ```
 

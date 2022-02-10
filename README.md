@@ -48,7 +48,7 @@ python plot_test.py test_results/left_turn/value_penalty/test_log.csv
 ## Reference
 If you find this repo to be useful in your research, please consider citing our work
 ```
-@article{huang2021efficient,
+@article{huang2022efficient,
   title={Efficient Deep Reinforcement Learning with Imitative Expert Priors for Autonomous Driving},
   author={Huang, Zhiyu and Wu, Jingda and Lv, Chen},
   journal={IEEE Transactions on Neural Networks and Learning Systems},

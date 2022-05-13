@@ -8,7 +8,7 @@ This repo is the implementation of **Imitative Expert Prior-Guided Reinforcement
 <br> **[[Paper]](https://ieeexplore.ieee.org/document/9694460)**&nbsp;**[[arXiv]](https://arxiv.org/abs/2103.10690)**&nbsp;**[[Project Website]](https://mczhi.github.io/Expert-Prior-RL/)**
 
 ## Getting started
-1. Install the [SMARTS](https://github.com/huawei-noah/SMARTS) simulator. Follow the instructions of the official repo.
+1. Install the [SMARTS](https://github.com/huawei-noah/SMARTS) simulator (only working with version 0.4.x). Follow the instructions of the official repo.
 
 2. Install tensorflow-probability, cpprb, and seaborn
 ```shell

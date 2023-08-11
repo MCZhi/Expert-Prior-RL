@@ -37,11 +37,12 @@ The visualization results of different driving policies are presented. The video
 ## Citation
 
 ```
-@article{huang2021efficient,
-  title={Efficient Deep Reinforcement Learning with Imitative Expert Priors for Autonomous Driving},
+@article{huang2022efficient,
+  title={Efficient deep reinforcement learning with imitative expert priors for autonomous driving},
   author={Huang, Zhiyu and Wu, Jingda and Lv, Chen},
   journal={IEEE Transactions on Neural Networks and Learning Systems},
-  year={2022}
+  year={2022},
+  publisher={IEEE}
 }
 ```
 
